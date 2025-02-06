@@ -8,8 +8,8 @@ import (
 )
 
 func main() {
-	inputFile := "C:\\Users\\aleks\\Documents\\_workbench\\input\\SCR18319202411.TXT" // Nom du fichier à analyser
-	outputFile := "C:\\Users\\aleks\\Documents\\_workbench\\output\\duplicates.txt"   // Fichier de sortie
+	inputFile := "****"  // Nom du fichier à analyser
+	outputFile := "****" // Fichier de sortie
 
 	file, err := os.Open(inputFile)
 	if err != nil {
